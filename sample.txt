@@ -1,1 +1,2 @@
-hanges in Develop branch must reflect in Test and Production servers
+Changes in Develop branch must reflect in Test and Production servers
+Added this line
