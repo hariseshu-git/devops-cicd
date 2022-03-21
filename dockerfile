@@ -5,6 +5,7 @@ LABEL author="rhs"
 ENV Environment = Production
 
 WORKDIR /home/ubuntu
+COPY taco-cloud-0.0.2-SNAPSHOT.war .
 
-ENTRYPOINT sudo java -jar taco-cloud-0.0.2-SNAPSHOT.jar
+ENTRYPOINT java -jar taco-cloud-0.0.2-SNAPSHOT.war
 
